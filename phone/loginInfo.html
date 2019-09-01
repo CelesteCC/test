@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <link rel="stylesheet" href="./css/layout.css">
+  <script>
+      function pxToRem(){
+          var html = document.documentElement;
+          var windowWidth = html.clientWidth;
+          html.style.fontSize = windowWidth / 6.4+ 'px';
+      }
+      pxToRem();
+      window.addEventListener('resize',pxToRem)
+  </script>
+  <title>350抢红包</title>
+</head>
+<body>
+  <div class="log-wrap">
+    <div class="log-head"><img src="./img/log-head02.png" alt=""></div>
+    <div class="log-bot"><img src="./img/log-bot02.png" alt=""></div>
+    <div class="log-info">
+      <div class="log-info-item">
+        <input type="text" placeholder="请输入手机号">
+      </div>
+      <div class="log-info-item log-info-code">
+        <input type="text" placeholder="请输入验证码">
+        <p>获取验证码</p>
+      </div>
+      <div class="log-info-item">
+        <input type="text" placeholder="请输入邀请码">
+      </div>
+      <div class="log-info-item">
+        <input type="text" placeholder="设置密码">
+      </div>
+      <div class="log-info-item">
+        <input type="text" placeholder="确认密码">
+      </div>
+      <img class="sub-btn" src="./img/submit.png" alt="">
+    </div>
+  </div>
+</body>
+</html>

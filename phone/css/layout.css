@@ -1,0 +1,67 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: '微软雅黑';font-size: 0.18rem;}
+a{text-decoration: none;}
+img{vertical-align: middle;border: 0;}
+body{background: #f2f2f2;}
+.top-ban{height: 0.67rem;background: #f2f2f2;position: fixed;top: 0;left: 0;display: flex;align-items: center;justify-content: space-between;width: 100%;padding: 0 .22rem;}
+.top-regist{height: 0.35rem;border:1px solid #dcdcdc;font-size: 0.18rem;color: #e72020;display: flex;align-items: center;justify-content: center;padding: 0 .16rem;border-radius: 0.1rem;}
+.top-regist img{margin-right: .12rem;}
+.top-tit{display: flex;align-items: center;font-size: .24rem;color: #e72020;font-weight: bold;}
+.top-tit img{width: .5rem;margin-right: .1rem;}
+.desc-info{background: #f92a2a;}
+.desc-item{padding: .1rem .25rem;font-size: 0;}
+.desc-item li{display: inline-block;vertical-align: middle;width: 50%;font-size: .24rem;color: #f1f1e6;line-height: .32rem;}
+.desc-item li span{color: #fdfa03;}
+.apk-link{padding: .15rem .24rem;background: #fff;}
+.apk-info{display: flex;align-items: flex-start;}
+.apk-info-detail{flex: 1;padding-left: .2rem;}
+.apk-info-detail h2{font-size: .36rem;font-weight: bold;margin: .2rem 0 0;}
+.apk-rank{display: flex;align-items: center;font-size: .22rem;}
+.apk-rank img{width: .28rem;}
+.apk-item{text-align: center;font-size: 0;margin: .28rem 0 .2rem;}
+.apk-item img{display: inline-block;vertical-align: middle;margin: 0 .12rem;width: 1.7rem;}
+.img-item{display: block;width: 100%;margin-bottom: .08rem;}
+.img-item:last-child{margin-bottom: 0;}
+.log-wrap{position: absolute;top: 0;bottom: 0;left: 0;right: 0;background: #e7654f url("../img/log-bg.png");background-size: 100% 100%;}
+.log-bot{position: absolute;top: 0;width: 100%;}
+.log-head img,.log-bot img{width: 100%;display: block;}
+.log-bot{top: auto;bottom: 0;}
+.log-btn{display: flex;width: 100%;align-items: center;justify-content: center;flex-direction: column;margin-top: .4rem;position: relative;z-index: 2;}
+.log-btn img{width: 3.16rem;}
+.log-btn a{margin: .1rem 0;}
+.log-info{padding: 0 .85rem;position: relative;z-index: 2;}
+.log-info-item{margin-bottom: .12rem;}
+.log-info-item input{border: 1px solid #fff;height: .58rem;font-size: .25rem;color: #fff;padding-left: .54rem;background: none;width: 100%;border-radius: .1rem;}
+.sub-btn{display: block;width: 100%;}
+.log-info-code{display: flex;align-items: center;justify-content: space-between;}
+.log-info-code p{width: 1.7rem;height: .54rem;background: url("../img/code-bg.png");background-size: 100% 100%;text-align: center;line-height: .54rem;font-size: .18rem;color: #fff;margin-left: .26rem;font-weight: bold;}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fff;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <link rel="stylesheet" href="./css/layout.css">
+  <script>
+      function pxToRem(){
+          var html = document.documentElement;
+          var windowWidth = html.clientWidth;
+          html.style.fontSize = windowWidth / 6.4+ 'px';
+      }
+      pxToRem();
+      window.addEventListener('resize',pxToRem)
+  </script>
+  <title>350抢红包</title>
+</head>
+<body>
+  <div class="log-wrap">
+    <div class="log-head"><img src="./img/log-head.png" alt=""></div>
+    <div class="log-bot"><img src="./img/log-bot.png" alt=""></div>
+    <div class="log-btn">
+      <a href="javascript:;"><img src="./img/btn01.png" alt=""></a>
+      <a href="javascript:;"><img src="./img/btn02.png" alt=""></a>
+      <a href="javascript:;"><img src="./img/btn03.png" alt=""></a>
+    </div>
+  </div>
+</body>
+</html>
